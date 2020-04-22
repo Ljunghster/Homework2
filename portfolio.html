@@ -11,6 +11,9 @@
             width: 100%;
             height: 50px;
             margin: auto;
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-top: 5px;
         }
 
         .container {
@@ -20,75 +23,86 @@
             border: 5px solid black;
             display: grid;
             grid-gap: 10px;
+            padding-left: 5px;
+            padding-right: 5px;
+            align-items: center;
         }
 
         .col    {
-            width: 75px;
-            height: 15px;
+            width: 100%;
+            height: 100%;
             background-color: slateblue;
+            margin: auto;
         }
-
-
-
-    </style>
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: red;
+            color: white;
+            text-align: center;
+        }
+</style>
 </head>
 <body>
 
-    <div class="navbar2">
-        <div class="row align-items-start">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                  <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fpets.webmd.com%2Fcats%2Fcat-vaccines&psig=AOvVaw2skiike9SkTkAkT9POxDYL&ust=1587614568526000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCICCmaaT--gCFQAAAAAdAAAAABAD">CAT</a>
-                    <a class="nav-item nav-link" href="#">Portfolio</a>
-                    <a class="nav-item nav-link" href="#">Contact</a>
-                  </div>
-                </div>
-                  </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fpets.webmd.com%2Fcats%2Fcat-vaccines&psig=AOvVaw2skiike9SkTkAkT9POxDYL&ust=1587614568526000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCICCmaaT--gCFQAAAAAdAAAAABAD">CAT</a>
+            <a class="nav-item nav-link" href="file:///Users/ljunghster/Desktop/code/Homework/Homework2/Homework2/portfolio.html">Portfolio</a>
+            <a class="nav-item nav-link" href="file:///Users/ljunghster/Desktop/code/Homework/Homework2/Homework2/contact.html">Contact</a>
+            </div>
         </div>
+    </nav>
 
     <div class="container">
         <div class="row align-items-start">
           <div class="col">
-            One of three columns
+            Link 1
           </div>
           <div class="col">
-            One of three columns
+            Link 2
           </div>
           <div class="col">
-            One of three columns
+            Link 3
           </div>
         </div>
 
         <div class="row align-items-center">
           <div class="col">
-            One of three columns
+            Link 4
           </div>
           <div class="col">
-            One of three columns
+            Link 5
           </div>
           <div class="col">
-            One of three columns
+            Link 6
           </div>
         </div>
 
         <div class="row align-items-end">
           <div class="col">
-            One of three columns
+            Link 7
           </div>
           <div class="col">
-            One of three columns
+            Link 8
           </div>
           <div class="col">
-            One of three columns
+            Link 9
           </div>
         </div>
       </div>
+      
+      <footer class="footer">
+        <p>Established 2020.</p>
+      </footer>
 
 </body>
 </html>
